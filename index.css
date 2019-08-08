@@ -52,9 +52,18 @@
 /* 右侧内容 */
 #echarts-sex,
 #echarts-area{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 4px #999;
 }
 
-
+.right-content .echarts-region.content-active{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
 .right-content{
     width: calc(100vw - 200px);
     height: calc(100vh - 70px);
